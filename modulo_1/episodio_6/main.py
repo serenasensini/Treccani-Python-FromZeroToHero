@@ -3,15 +3,15 @@
 nome = "Marco"
 saluto = "Ciao"
 
-risultato = nome + saluto
+risultato = saluto + nome
 
-risultato = nome + " " + saluto
+risultato = saluto + " " + nome
 
 # oppure
 
 print(nome, " ", saluto)
 
-s = 'cra.'
+s = 'cra'
 print(s*4)
 
 suffisso = "ino"
@@ -24,9 +24,13 @@ print(suffisso in personaggio)
 
 #txt = "Esiste una città chiamata "Perugia" dove ogni anno si svolge il festival del cioccolato." #KO
 
+# print(txt)
+
 txt = "Esiste una città chiamata \"Perugia\" dove ogni anno si svolge il festival del cioccolato." # OK
 
 print(txt)
+
+proverbio = 'Rosso di sera, bel tempo si \'spera\''
 
 directory = "\\la\\mia\\cartella"
 

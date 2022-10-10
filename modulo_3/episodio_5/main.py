@@ -1,17 +1,27 @@
 # Classe genitore con figlio
 
-class Person:
-    def __init__(self, fname, lname):
-        self.firstname = fname
-        self.lastname = lname
+class Persona:
+    def __init__(self, nome, cognome):
+        self.nome = nome
+        self.cognome = cognome
 
-    def printname(self):
-        print(self.firstname, self.lastname)
+    def __repr__(self):
+        print(self.nome, self.cognome)
+
+    def get_anagrafica(self):
+        return self.nome, self.cognome
 
 
-class Student(Person):
-    pass
+class Studente(Persona):
 
+
+    def __init__(self, nome, cognome, matricola):
+        super().__init__(nome, cognome)
+        self.matricola = matricola
+
+    def __repr__(self):
+        print(super().__repr__())
+        print(self.matricola)
 
 # Override
 

@@ -8,7 +8,8 @@ boole2 = True or False
 
 
 def circonferenza(raggio):
-    return raggio * 2 * 3.14
+    risultato = raggio * 2 * 3.14
+    print("La circonferenza del cerchio è:", risultato)
 
 
 print(circonferenza(3))

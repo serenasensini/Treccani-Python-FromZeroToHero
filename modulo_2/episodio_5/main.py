@@ -1,15 +1,4 @@
-# Stringhe vs liste
-
-nome = 'Matthew'
-print(nome[:4])
-
-nome = 'Mr. Doubtfire'
-print(nome[0:2])
-
-# Episodio 5
-
 # Ciclo for
-
 
 for i in [1, 3, 5, 7]:
     print(i)

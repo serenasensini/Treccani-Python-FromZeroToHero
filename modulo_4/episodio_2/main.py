@@ -5,7 +5,7 @@ x = input("Inserisci un numero")
 if not type(x) is int:
     raise TypeError("Sono ammessi solo numeri interi")
 
-    # Eccezioni: come gestile
+# Eccezioni: come gestile
 
 try:
     print("Hello")
